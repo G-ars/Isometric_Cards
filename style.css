@@ -100,3 +100,24 @@ ul li:hover a:hover:after{
 	 border-color: transparent;
 	 transform: scale(1.2) !important;
  }
+
+ ul li:nth-child(1) {
+ 	transform: rotate(20deg) skew(-20deg) translate(10px, 10px);
+ }
+
+ ul li:nth-child(2) {
+ 	transform: rotate(20deg) skew(-20deg) translate(0px, 0px);
+ }
+
+ ul li:nth-child(3) {
+ 	transform: rotate(20deg) skew(-20deg) translate(-10px, -10px);
+ }
+
+ ul:hover li:hover{
+ 	z-index: 0;
+ 	background-color: #0e1826;
+ 	box-shadow: 10px 10px 40px rgba(0,0,0,0.5);
+ }
+
+
+
