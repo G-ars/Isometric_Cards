@@ -113,11 +113,41 @@ ul li:hover a:hover:after{
  	transform: rotate(20deg) skew(-20deg) translate(-10px, -10px);
  }
 
+ ul:hover li:nth-child(1){
+ 	transform: rotate(40deg) skew(0) translate(100px,0);
+ }
+
+ ul:hover li:nth-child(2){
+ 	transform: rotate(0) skew(0);
+ }
+
+  ul:hover li:nth-child(3){
+ 	transform: rotate(-40deg) skew(0) translate(-100px,0);
+ }
+
  ul:hover li:hover{
  	z-index: 0;
  	background-color: #0e1826;
  	box-shadow: 10px 10px 40px rgba(0,0,0,0.5);
  }
+
+ ul:hover li:hover a{
+ 	top:30px;
+ 	transform: scale(1);
+ }
+
+ ul:hover li:hover:after{
+ 	height: 100%;
+ }
+
+ ul:hover li:hover * {
+ 	color: #fff;
+ 	background: -webkit-linear-gradient(#fff, #fff);
+ 	-webkit-background-clip: text;
+ 	-webkit-text-fill-color:transparent;
+ }
+
+
 
 
 
